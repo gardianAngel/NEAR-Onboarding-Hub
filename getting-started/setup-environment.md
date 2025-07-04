@@ -1,5 +1,5 @@
 ## 📄 getting-started/setup-environment.md
-```markdown
+
 # 1. Set Up Your Development Environment
 
 Set up everything you need to start building on NEAR Protocol in under 15 minutes.
@@ -19,7 +19,6 @@ Set up everything you need to start building on NEAR Protocol in under 15 minute
 ## The 1-2-3 Launch Process
 
 ### Step 1: Install NEAR CLI
-```
 
 ```bash
 npm install -g near-cli
