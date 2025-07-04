@@ -1,0 +1,38 @@
+---
+
+## 📄 .gitbook.yaml
+
+```yaml
+# GitBook Configuration
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+pdf:
+  margin:
+    right: 1.5
+    left: 1.5
+    top: 1.5
+    bottom: 1.5
+
+plugins:
+  - search-plus
+  - github
+  - copy-code-button
+  - expandable-chapters
+
+pluginsConfig:
+  github:
+    url: https://github.com/near/onboarding-hub
+  copy-code-button:
+    copyLabel: "Copy to clipboard"
+    copiedLabel: "Copied!"
+
+title: "NEAR Protocol Developer Onboarding Hub"
+description: "Transform complexity into clarity - Your guide to building on NEAR Protocol"
+author: "NEAR DevHub Team"
+language: "en"
+direction: "ltr"
+gitbook: ">=3.0.0"
