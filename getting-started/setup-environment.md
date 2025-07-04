@@ -1,4 +1,4 @@
-
+## 📄 getting-started/setup-environment.md
 ```markdown
 # 1. Set Up Your Development Environment
 
@@ -74,4 +74,3 @@ Think of NEAR CLI like a loyalty card app for your favorite coffee shop. Once yo
 - [Node.js Installation Guide](https://nodejs.org/)
 ```
 
----
