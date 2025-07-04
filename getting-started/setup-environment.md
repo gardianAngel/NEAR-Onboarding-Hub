@@ -1,5 +1,3 @@
-## 📄 getting-started/setup-environment.md
-
 # 1. Set Up Your Development Environment
 
 Set up everything you need to start building on NEAR Protocol in under 15 minutes.
