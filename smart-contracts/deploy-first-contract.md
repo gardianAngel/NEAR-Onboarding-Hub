@@ -1,5 +1,3 @@
-## 📄 smart-contracts/deploy-first-contract.md
-
 # 3. Deploy Your First Smart Contract
 
 Deploy a simple "Hello World" smart contract to understand the deployment process.
