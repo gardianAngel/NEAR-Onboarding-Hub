@@ -74,6 +74,7 @@ near deploy --wasmFile build/contract.wasm --accountId yourname.testnet
 
 **What this does**: Uploads your contract code to the NEAR blockchain and associates it with your account.
 
+
 ### Step 3: Test Your Contract
 
 Call the view function (free):
