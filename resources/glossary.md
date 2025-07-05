@@ -1,5 +1,3 @@
-## 📄 resources/glossary.md
-
 # Glossary
 
 ## A
