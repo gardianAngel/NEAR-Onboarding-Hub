@@ -19,13 +19,17 @@ Deploy a simple "Hello World" smart contract to understand the deployment proces
 
 ### Step 1: Create Your Contract
 
-Create a new directory and file:
+Create a new directory and initialize the project:
+
 ```bash
 mkdir my-first-contract
 cd my-first-contract
+npm init -y
+npm install near-sdk-js
 ```
 
 Create `contract.js`:
+
 ```javascript
 import { NearBindgen, near, call, view } from 'near-sdk-js';
 
@@ -40,7 +44,18 @@ class HelloContract {
 
   @call({})
   set_greeting({ message }) {
+    near.log(`Changing greeting to: ${message}`);
     this.message = message;
+  }
+}
+```
+
+Create `package.json` build script:
+
+```json
+{
+  "scripts": {
+    "build": "near-sdk-js build contract.js build/contract.wasm"
   }
 }
 ```
